@@ -1,14 +1,11 @@
 [package]
-name = "cs492-concur-art"
+name = "lockfree"
 version = "0.1.0"
 authors = ["Jeehoon Kang <jeehoon.kang@kaist.ac.kr>"]
 edition = "2018"
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
 [dependencies]
-itertools = "0.8"
-static_assertions = "0.3"
 crossbeam-epoch = "0.7"
 crossbeam-utils = "0.6"
-either = "1.5"
-lock = { git = "https://github.com/kaist-cp/cs492-concur" }
-rand = "0.7"
